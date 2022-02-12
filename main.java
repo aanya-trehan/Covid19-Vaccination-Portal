@@ -435,7 +435,7 @@ class slots{
 
 
     //private final String HospitalName;
-    vaccine Vaccine;
+    private vaccine Vaccine;
     private final long hospitalID;
     private final long dayNumber;
     private long qty;
@@ -488,7 +488,7 @@ class citizen{
     //private long VaccineGap=0;
     private long VaccineDosesGiven=0;
     private long dayVaccinated;
-    vaccine vaccineGiven;
+    private vaccine vaccineGiven;
 
 
     public citizen(String citizenName, long citizenAge,String uniqueID)
